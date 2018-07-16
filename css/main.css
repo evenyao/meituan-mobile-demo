@@ -1,0 +1,349 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font: 3.2vw/1.5 arial;
+  background: #f0efed;
+
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* header 样式 */
+header {
+  background: #06c1ae;
+  border-bottom: 0.266vw solid #21897d;
+  height: 13.6vw;
+  color: #fff;
+  font-size: 4.27vw;
+  padding: 0 2.67vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .user {
+  /* margin-left: auto; */
+}
+
+header input {
+  width: 50vw;
+  height: 9vw;
+  padding-left: 8vw;
+  border-radius: 1vw;
+  border: none;
+}
+
+header .icon-search {
+  position: relative;
+  color: #06c1ae;
+  left: 8vw;
+  top: 0.26vw;
+  font-size: 4vw;
+}
+
+header a,
+header .iconfont {
+  color: #fff;
+  font-size: 4vw;
+}
+
+
+
+/* .classify 样式 */
+.classify {
+  background: #fff;
+  padding-top: 2.66vw;
+  width: 100vw;
+  height: 41vw;
+  margin-bottom: 1.33vw;
+
+}
+
+.classify a {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  width: 10.67vw;
+  height: 20vw;
+  margin-right: 8vw;
+  left: 5vw;
+}
+
+.classify span {
+  display: block;
+  font-size: 9.33vw;
+}
+
+.classify .icon-meishi {
+  color: #FD9D21;
+}
+/* icon的颜色样式 */
+.classify .icon-waimai {
+  color: #FF6767;
+}
+.classify .icon-dianying {
+  color: #8A90FA;
+}
+.classify .icon-lvyou {
+  color: #FED030;
+}
+.classify .icon-xiuxian {
+  color: #FD9D21;
+}
+.classify .icon-jiudian {
+  color: #FED030;
+}
+.classify .icon-jiazhuang {
+  color: #4DC6EE;
+}
+.classify .icon-meirong {
+  color: #FF80C2;
+}
+.classify .icon-ktv {
+  color: #FD9D21;
+}
+.classify .icon-daijinquan {
+  color: #599EEC;
+}
+
+
+
+/* .banner 样式 */
+.banner {
+  width: 100vw;
+  height: 32vw;
+  background: url(img/download.png) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner a {
+  display: inline-block;
+  margin: 2.66vw;
+  padding: 1.333vw;
+  border-radius: 1.33vw;
+  position: relative;
+  top: 7vw;
+  text-align: center;
+}
+
+.banner .buttom {
+  width: 24vw;
+  height: 5.33vw;
+}
+
+.banner .open {
+  background: #fff;
+  border: 0.266vw solid #06c1ae;
+  color: #06c1ae;
+}
+
+.banner .download {
+  background: #06c1ae;
+  border: 0.266vw solid #fff;
+  color: #fff;
+}
+
+
+
+/* .adv  样式 */
+.adv {
+  background: #fff;
+  display: flex;
+  text-align: center;
+  margin-bottom: 1.33vw;
+}
+
+.adv .adv-list {
+  width: 33.33vw;
+  flex-grow: 1;
+  margin: 1.33vw;
+  padding-right: 1.33vw;
+}
+
+.adv .border-r {
+  border-right: 1px solid lightgrey;
+}
+
+.adv .adv-list:nth-child(1) h4 {
+  color: green;
+}
+
+.adv .adv-list:nth-child(2) h4 {
+  color: orange;
+}
+
+.adv .adv-list:nth-child(3) h4 {
+  color: pink;
+}
+
+.adv .adv-list span {
+  display: block;
+  margin: 2.66vw auto;
+  font-size: 3.2vw;
+}
+
+.adv img {
+  width: 13.33vw;
+  height: 13.33vw;
+}
+
+
+/* .guess 样式 */
+.guess {
+  background: #fff;
+  border-bottom: 1px solid lightgrey;
+}
+
+.guess>span {
+  display: inline-block;
+  font-size: 3.733vw;
+  margin-left: 2.66vw;
+  margin-top: 2.66vw;
+}
+
+.guess .item {
+  display: flex;
+  margin: 2.66vw;
+  padding-bottom: 1.33vw;
+  border-bottom: 1px solid lightgrey;
+}
+
+.guess .item img {
+  width: 34.66vw;
+  height: 40vw;
+}
+
+.guess .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.33vw;
+}
+
+.guess .info p {
+  color: grey;
+  flex-grow: 1;
+  display: inline-block;
+  width: 58.66vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.guess .item .foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guess .item .foot .door-price,
+.guess .item .foot .sell {
+  position: relative;
+  top: 10px;
+}
+
+.guess .item .foot .price {
+  color: #06c1ae;
+  font-size: 20px;
+}
+
+.guess .last {
+  font-weight: bold;
+  display: flex;
+  font-size: 3.733vw;
+  margin-left: 2.66vw;
+  padding-bottom: 2.66vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.guess .last a {
+  color: #06c1ae;
+}
+
+.guess .last .goto {
+  display: inline-block;
+  margin-right: 2.66vw;
+}
+
+
+
+/* footer css样式 */
+footer a {
+  color: #06c1ae;
+  display: inline-block;
+}
+
+footer .operation {
+  margin: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .operation a {
+  padding: 1.33vw 3.66vw;
+  border: 1px solid #06c1ae;
+  border-radius: 1.33vw;
+}
+
+footer .operation .city {
+  padding: 1.33vw 6vw;
+}
+
+footer .singup {
+  position: relative;
+  left: -8vw;
+}
+
+footer .operation span {
+  position: relative;
+  left: 10.66vw;
+}
+
+footer .link-bar {
+  margin: 0 8vw 0 8vw;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .link-bar a {
+  padding-right: 3.8vw;
+}
+
+footer .friendly {
+  margin-top: 2.66vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  width: 75vw;
+}
+
+footer .friendly a {
+  margin: 3.5vw 2.6vw 0 2.6vw;
+}
+
+footer .footbar {
+  display: flex;
+  color: grey;
+}
+
+footer .footbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.666vw;
+  color: grey;
+}
